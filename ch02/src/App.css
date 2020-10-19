@@ -1,0 +1,14 @@
+.box1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background: orange;
+  margin: 10px;
+}
+.box2 {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  background: green;
+}
