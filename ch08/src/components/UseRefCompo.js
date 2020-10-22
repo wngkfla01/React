@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useRef, useState } from "react";
 
 const UseRefCompo = () => {
   const [list, setList] = useState([]);
@@ -6,6 +6,7 @@ const UseRefCompo = () => {
 
   // ref 생성
   const inputRef = useRef();
+
   const onClicked = () => {
     const nextList = list.concat(inputRef.current.value);
     setList(nextList);

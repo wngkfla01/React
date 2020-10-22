@@ -8,12 +8,12 @@ const UseStateCompo = () => {
     <div className="UseStateCompo">
       <h4>UseStateCompo</h4>
       <p>
-        이름: {state.name}
+        이름 : {state.name}
         <br />
-        나이: {state.age}
+        나이 : {state.age}
       </p>
 
-      {/*
+      {/* 
         전개연산자(...)를 상태값에 붙여서 기존의 상태값을 유지한다.
       */}
       <input

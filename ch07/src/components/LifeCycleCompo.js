@@ -3,30 +3,32 @@ import React, { Component } from "react";
 class LifeCycleCompo extends Component {
   // 초기화 단계에 실행되는 함수
   constructor() {
+    super();
     console.log("constructor...");
   }
   static getDerivedStateFromProps() {
-    console.log("getDerivedStateFromProps");
+    console.log("getDerivedStateFromProps...");
   }
   componentDidMount() {
-    console.log("componentDidMount");
+    console.log("componentDidMount...");
   }
 
   // 업데이트 단계에 실행되는 함수
   shouldComponentUpdate() {
-    console.log("shouldComponentUpdate");
+    console.log("shouldComponentUpdate...");
     return true;
   }
+
   getSnapshotBeforeUpdate() {
-    console.log("getSnapshotBeforeUpdate");
+    console.log("getSnapshotBeforeUpdate...");
   }
   componentDidUpdate() {
-    console.log("componentDidUpdate");
+    console.log("componentDidUpdate...");
   }
 
   // 소멸 단계에 실행되는 함수
   componentWillUnmount() {
-    console.log("componentWillUnmount");
+    console.log("componentWillUnmount...");
   }
 
   render() {

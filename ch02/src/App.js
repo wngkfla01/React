@@ -12,14 +12,15 @@ import "./App.css";
      - 리액트 컴포넌트에서 브라우저에 렌더링 하기 위해 사용하는 XML 문법    
  */
 function App() {
-  // 상수선언
+  // 상수
   const title = "안녕 리액트!";
   const message = "리액트 JSX 문법 실습하기";
   const name = "홍길동";
 
-  // 변수선언
+  // 변수
   let num1 = 1;
   let num2 = 2;
+
   let var1 = true;
   let var2 = false;
 

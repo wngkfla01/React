@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 const UseEffectCompo = () => {
   // 상태값 생성
-  const [state, setState] = useState({ name: "", age: 0 });
   const [name, setName] = useState("");
   const [age, setAge] = useState(0);
 
@@ -23,17 +22,14 @@ const UseEffectCompo = () => {
     <div className="UseEffectCompo">
       <h4>UseEffectCompo</h4>
       <p>
-        이름: {state.name}
+        이름 : {name}
         <br />
-        나이: {state.age}
+        나이 : {age}
       </p>
 
-      {/*
-        전개연산자(...)를 상태값에 붙여서 기존의 상태값을 유지한다.
-      */}
       <input
         type="text"
-        value={state.name}
+        value={name}
         onChange={(e) => {
           setName(e.target.value);
         }}
@@ -41,7 +37,7 @@ const UseEffectCompo = () => {
 
       <input
         type="text"
-        value={state.age}
+        value={age}
         onChange={(e) => {
           setAge(e.target.value);
         }}
