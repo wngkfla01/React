@@ -6,6 +6,7 @@ import CtxChildCompo2 from "./components/CtxChildCompo2";
 import NameContext from "./context/NameContext";
 import CtxChildCompo1 from "./components/CtxChildCompo1";
 import UserCompo from "./components/UserCompo";
+import UserContext from "./context/UserContext";
 /*
  날짜 : 2020/10/22
  이름 : 주하림
